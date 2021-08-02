@@ -69,7 +69,7 @@ function Cantact() {
       
     
     return (
-        <div id="" className="styles.container">
+        <div id="" className={styles.container}>
             
             <div   className={styles.titlecontainer} >                
                 <h1  ref={el=>head=el} onMouseEnter={up} onMouseLeave={down} className={styles.title}>

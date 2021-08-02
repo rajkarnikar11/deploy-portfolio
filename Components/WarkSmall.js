@@ -19,7 +19,7 @@ function WarkSmall() {
     
     
     let head=useRef(null);
-       let sc=gsap.timeline()
+       let timeLine=gsap.timeline()
     
     
     function up(){
