@@ -34,10 +34,10 @@ export default function Home() {
        
         direction={'vertical'}
         scrollbar={{ draggable: true }}
-        // autoplay={{
-        //   "delay": 12000,
-        //   "disableOnInteraction": false
-        //   }}
+        autoplay={{
+          "delay": 12000,
+          "disableOnInteraction": false
+          }}
         parallax={true}
         speed={1000}
         pagination={{"type":"progressbar",
