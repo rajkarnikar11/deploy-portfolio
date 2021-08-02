@@ -1,0 +1,111 @@
+.container{
+    background-color:  #FFFFFF;
+    margin-top: 43px;
+    height: 85vh;
+    background-image: url("/assets/Hero-image.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+    background-position: top right;
+    position: relative;
+}
+.bold{
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 600;
+    color: #131313;
+    opacity: 0.9;
+    
+}
+.name{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    opacity: .8;
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+.textarea{
+    margin-left: 5%;
+    position: absolute;
+    top: 50%;
+    /* -ms-transform: translateY(-50%); */
+    transform: translateY(-50%);
+    }
+.button{
+    border:2px solid #131313;
+    padding:  10px;
+    width: 107px;
+    text-align: center;
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: all 0.2s linear;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.about{
+      color: #131313;
+      font-size: smaller;
+      font-weight: 600;
+      width: 500px;
+      
+      
+}
+.button:hover{
+    background-color: #131313;
+    color: #FFFFFF;
+    
+    
+    
+}
+    @media screen and (max-width: 600px){
+        .bold{
+            font-size: 25px;
+        }
+        .about{
+            color: #131313;
+            width: 220px;
+            
+      }
+        .name{
+            font-size: 15px;
+            margin-top: -7px;
+        }
+        .textarea{
+            margin-left: 2%;
+            position: absolute;
+            
+            }
+        .container{
+            margin-top: 25vh;
+            height: 40vh;
+            
+        }
+    }
+    @media (max-width:900px) and (min-width:600px){
+        .name{
+            font-size: 25px;
+            margin-top: -7px;
+        }
+        .textarea{
+            margin-left: 4%;
+            position: absolute;
+            
+            }
+        .container{
+            margin-top: 25vh;
+            height: 40vh;
+            
+        }
+        .bold{
+            font-size: 40px;
+        }
+        .about{
+            color: #131313;
+            width: 320px;
+        }
+    }

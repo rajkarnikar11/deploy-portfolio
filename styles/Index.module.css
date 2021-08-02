@@ -1,0 +1,12 @@
+.swiper{
+    margin-top: 2px;
+}
+
+.swiper-pagination-bullet-active {
+    color: #000;
+  }
+  @media screen and (max-width: 600px){
+    .swiper{
+        margin-top: 2px;
+    }  
+  }

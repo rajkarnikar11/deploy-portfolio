@@ -1,0 +1,94 @@
+.container{
+    border-radius: 50px;
+    width: 370px;
+    /* background-color: red; */
+    box-shadow: black 0px 5px 10px;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.seperator{
+    height: 1px;
+    opacity: .3;
+    width: 75%;
+    margin: auto;
+    background-image: linear-gradient(to right,transparent,#131313,transparent);
+}
+.seperatordown{
+    height: 1px;
+    opacity: .8;
+    width: 100%;
+    margin: auto;
+    background-image: linear-gradient(to right,transparent,#131313,transparent);
+}
+.title{
+    height: 50px;
+    overflow:hidden ;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    
+    font-size: smaller;
+    color: #131313;
+    opacity: .85;
+    text-align: center;
+    
+
+}
+.imagecontainer{
+    height: 130px;
+    
+    
+    
+   
+}   
+.description{
+    height: 100px;
+    overflow:hidden ;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 10px;
+    width: 320px;
+    font-size: smaller;
+    color: #131313;
+    opacity: .5;
+    
+    
+    
+    
+
+}
+.image{
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 100%;
+    
+}
+.overlay{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    opacity: 0;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45%;
+    color: #131313;
+    font-family: 'Oswald';
+}
+
+.overlay:hover{
+    opacity: .85;
+}
+.arrowcontainer{
+    padding-top: 5px;
+    
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Portfolio",
+    "short_name": "PF",
+    "theme_color": "white",
+    "background_color": "white",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons":[
+        {
+            "src":"/icon.png",
+            "sizes":"192x192",
+            "type":"image/png",
+            "purpose": "any maskable"
+
+        },
+        {
+            "src":"/icon512x512.png",
+            "sizes":"512x512",
+            "type":"image/png",
+            "purpose": "any maskable"
+
+        }
+    ]
+  }
