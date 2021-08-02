@@ -25,6 +25,7 @@ class MyDocument extends Document {
                 <link rel="apple-touch-icon" href="/icon512x512.png" />
                 <meta name="theme-color" content="#131331"/>
                 <meta name="description" content="Portfolio website"></meta>
+                <link rel="shortcut icon" href="/static/favicon.ico" />
                 <title>Salil Rajkarnikar | Portfolio</title>
                 
             </Head>

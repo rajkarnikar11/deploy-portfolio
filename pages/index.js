@@ -10,10 +10,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Skills from '../Components/Skills'
 import Tools from '../Components/Tools'
 import Footer from '../Components/Footer'
-// import Contact from '../Components/contact'
-// import Work from '../Components/Work'
-// import Workmedium from '../Components/WorkMedium'
-// import Worksmall from '../Components/WorkSmall'
+import Contact from '../Components/contact'
+import Work from '../Components/Work'
+import Workmedium from '../Components/WorkMedium'
+import Worksmall from '../Components/WorkSmall'
 
 
 SwiperCore.use([Navigation ,Parallax,Autoplay, EffectFade,Mousewheel, Pagination, Scrollbar, A11y]);
@@ -49,20 +49,20 @@ export default function Home() {
         <SwiperSlide>
           <HeroSection />
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <Work />
           <Workmedium/>
           <Worksmall/>
-        </SwiperSlide>  */}
+        </SwiperSlide> 
         <SwiperSlide>
           <Skills />
         </SwiperSlide>
         <SwiperSlide>
           <Tools />
         </SwiperSlide>   
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <Contact />
-        </SwiperSlide>   */}
+        </SwiperSlide>  
         
         <SwiperSlide>
           <Footer />
