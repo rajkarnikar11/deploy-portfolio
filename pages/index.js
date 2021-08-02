@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Skills from '../Components/Skills'
 import Tools from '../Components/Tools'
 import Footer from '../Components/Footer'
-import Contact from '../Components/contact'
+// import Contact from '../Components/contact'
 import Work from '../Components/Work'
 import Workmedium from '../Components/WorkMedium'
 import Worksmall from '../Components/WorkSmall'
@@ -60,9 +60,9 @@ export default function Home() {
         <SwiperSlide>
           <Tools />
         </SwiperSlide>   
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Contact />
-        </SwiperSlide>  
+        </SwiperSlide>   */}
         
         <SwiperSlide>
           <Footer />
