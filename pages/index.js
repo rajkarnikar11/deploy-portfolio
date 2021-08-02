@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Skills from '../Components/Skills'
 import Tools from '../Components/Tools'
 import Footer from '../Components/Footer'
-import Cantact from '../Components/cantact'
+import Cantact from '../Components/Cantact'
 import Wark from '../Components/Wark'
 import Warkmedium from '../Components/WarkMedium'
 import Warksmall from '../Components/WarkSmall'
