@@ -36,13 +36,14 @@ export default function Home() {
         scrollbar={{ draggable: true }}
         autoplay={{
           "delay": 12000,
-          "disableOnInteraction": false
+          "disableOnInteraction": true
           }}
         parallax={true}
         speed={1000}
         pagination={{"type":"progressbar",
         progressbarOpposite:true,
         }}
+        loop={false}
         mousewheel={true}
         className="swiper-pagination-black"
         >
